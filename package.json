@@ -1,0 +1,19 @@
+{
+  "name": "NLW-valoriza-06",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brunoapollon/NLW-valoriza-06.git",
+  "author": "Bruno Lopes <eusoubruno7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  },
+  "scripts": {
+    "dev:server": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
