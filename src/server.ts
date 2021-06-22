@@ -1,10 +1,12 @@
+import "reflect-metadata";
 import express from "express";
+import { routes } from "./index.routes";
+import "./database";
 
 const app = express();
+app.use(express.json());
 
-app.get("/teste", (req, res) => {
-  res.json({ message: "Pega nois" });
-});
+app.use(routes);
 
 app.listen(3333, () => {
   console.log("Server is running on port 3333👨‍💻");
