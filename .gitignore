@@ -1,3 +1,4 @@
+./src/database/database.sqlite
 # Logs
 logs
 *.log
@@ -41,7 +42,7 @@ build/Release
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
+# TypeScript v1 declaration fil es
 typings/
 
 # TypeScript cache
