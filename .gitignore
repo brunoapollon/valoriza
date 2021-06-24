@@ -1,4 +1,4 @@
-./src/database/database.sqlite
+src/database/database.sqlite
 # Logs
 logs
 *.log
