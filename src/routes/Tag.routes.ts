@@ -7,5 +7,6 @@ const tagRouter = Router();
 const tagContoler = new TagController();
 
 tagRouter.post("/tags", ensureAuthenticated, ensureAdmin, tagContoler.store);
+tagRouter.get("/tags", ensureAuthenticated, tagContoler.index);
 
 export { tagRouter };
